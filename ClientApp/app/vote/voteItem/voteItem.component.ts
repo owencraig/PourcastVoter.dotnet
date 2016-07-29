@@ -7,7 +7,8 @@ import { MD_CARD_DIRECTIVES } from '@angular2-material/card';
 @Component({
     selector: 'vote-item',
     styles: [
-        ':host { width: 20%; display: inline-flex; flex-direction: column; margin: 1.5em; }',
+        ':host { width: 20%; display: inline-flex; margin: 1.5em; }',
+        'md-card { display:flex; flex-direction: column; }',
         'beer-description { flex: 1 0 auto; }',
         'h3 { text-align: center; text-transform: uppercase}',
         'a:visited, a { color: black }'
