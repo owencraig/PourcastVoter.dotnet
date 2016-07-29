@@ -1,5 +1,4 @@
 import { Component, Input } from '@angular/core';
-import { Option } from '../../../lib/option';
 
 @Component({
     selector: 'beer-description',
