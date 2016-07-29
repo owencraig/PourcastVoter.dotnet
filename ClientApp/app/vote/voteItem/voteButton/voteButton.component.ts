@@ -10,7 +10,6 @@ export class VoteButton {
     @Output() vote: EventEmitter<any> = new EventEmitter();
 
     onVoteClicked(event){
-        console.log("clicked", event);
         this.vote.emit(event);
     }
 }

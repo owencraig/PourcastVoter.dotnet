@@ -23,7 +23,6 @@ export class VoteItem {
     }
 
     voteClicked() {
-        console.log('vote');
         this.vote.emit(this.item);
     }
 }
